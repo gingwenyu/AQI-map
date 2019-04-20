@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/all.css">
+  <script src="JS/all.js"></script>
+  <title>AQI map</title>  
+</head>
+<body>
+    <div class="row" id="nav">
+      <div class="col d-flex bg-lightopa">
+        <h4 class="my-1 mx-3">AQI空氣品質指標</h4>
+        <select class="area2 px-2">
+        </select>
+        <p id="time" class="text-danger font-weight-bold mb-0 px-2 d-flex align-self-center"></p>
+      </div>
+    </div>
+    
+    <div id="map"></div>
+    
+    <div id="mapLegend" class="bg-lightopa">
+      
+    </div>
+
+  
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDy7niYo3hKVoLoxDPCbZqRZWG_x7jml4k&callback=initMap">
+
+    </script>
+</body>
+</html>
